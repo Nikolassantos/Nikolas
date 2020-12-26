@@ -14,12 +14,12 @@ export function AboutMe() {
         resolver problemas, no tempo livre gosto de me dedicas a ajudar pessoas
         na comunidade.`}
       </p>
-      <PrimaryButton>
+      {/* <PrimaryButton>
         <FiLinkedin className="icon" />
         <a href="https://www.linkedin.com/in/nikolassaantos/" target="__blank">
           LinkedIn
         </a>
-      </PrimaryButton>
+      </PrimaryButton> */}
     </AboutWrapper>
   )
 }
