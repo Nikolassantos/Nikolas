@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button } from './styles'
+import { ButtonWrapper } from './styles'
 import { IButton } from './types'
 
-export const PrimaryButton: React.FC<IButton> = () => {
-  return <Button />
+export const Button: React.FC<IButton> = () => {
+  return <ButtonWrapper />
 }

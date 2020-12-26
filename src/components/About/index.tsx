@@ -1,7 +1,7 @@
 import React from 'react'
 import { FiLinkedin } from 'react-icons/fi'
 import { AboutWrapper } from './styles'
-import { PrimaryButton } from '../PrimaryButton'
+import { ButtonWrapper } from '../PrimaryButton/styles'
 
 export function AboutMe() {
   return (
@@ -14,12 +14,12 @@ export function AboutMe() {
         resolver problemas, no tempo livre gosto de me dedicas a ajudar pessoas
         na comunidade.`}
       </p>
-      {/* <PrimaryButton>
+      <ButtonWrapper>
         <FiLinkedin className="icon" />
         <a href="https://www.linkedin.com/in/nikolassaantos/" target="__blank">
-          LinkedIn
+          {'LinkedIn'}
         </a>
-      </PrimaryButton> */}
+      </ButtonWrapper>
     </AboutWrapper>
   )
 }
