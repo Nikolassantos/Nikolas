@@ -15,9 +15,7 @@ export const SecondCardBox: React.FC<ISecondCardBox> = ({
     <SecondCardBoxWrapper>
       {children}
       <h3>{tech}</h3>
-
       <p>{experience}</p>
-
       <ReactStars
         count={5}
         color2={colors.primaryColor}

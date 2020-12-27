@@ -1,8 +1,8 @@
 import React from 'react'
-import { SecondCardBox } from '../../components/SecondCardBox/index'
+import { SecondCardBox } from '../../components/SecondCardBox'
 import { CardBoxContainer, KnowledgeWrapper } from './styles'
 
-export function Knowledge() {
+export default function Knowledge() {
   return (
     <KnowledgeWrapper>
       <h1>Conhecimentos</h1>
