@@ -8,11 +8,11 @@ export function AboutMe() {
     <AboutWrapper>
       <h1>Sobre mim</h1>
       <p>
-        {`Meu nome é Nikolas dos Santos, tenho 16 anos, moro no brazil,
-        especificamente na cidade de Dracena-SP, atualmente estou estudando e
-        atuando em uma empresa como Fullstack developer.Amo desenvolver e
-        resolver problemas, no tempo livre gosto de me dedicas a ajudar pessoas
-        na comunidade.`}
+        {`Lorem Ipsum is simply dummy text of the printing 
+          and typesetting industry. Lorem Ipsum has been the
+          industrys standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scra
+          mbled it to`}
       </p>
       <ButtonWrapper>
         <FiLinkedin className="icon" />
