@@ -4,6 +4,10 @@ import { colors } from '../../styles/theme'
 export const ProjectsWrapper = styled.div`
   text-align: center;
   padding: 70px;
+
+  h1 {
+    padding-bottom: 40px;
+  }
 `
 export const Header = styled.header`
   display: flex;

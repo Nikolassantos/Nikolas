@@ -6,7 +6,7 @@ export const KnowledgeWrapper = styled.div`
   padding: 70px;
 
   h1 {
-    padding: 10px;
+    padding-bottom: 40px;
   }
 
   .box-content {

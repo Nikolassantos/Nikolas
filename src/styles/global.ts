@@ -7,6 +7,10 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+
   }
 
   html {
@@ -25,5 +29,9 @@ export default createGlobalStyle`
     max-width: 100%;
     object-fit: cover;
     object-position: center;
+  }
+
+  input{
+    border:none
   }
 `

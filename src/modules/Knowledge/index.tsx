@@ -10,7 +10,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="HTML5"
           experience="2 anos de experiência"
-          value={4}
+          value={3}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <path
@@ -67,7 +67,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="Javascript"
           experience="2 anos de experiência"
-          value={4.5}
+          value={4}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <path
@@ -83,7 +83,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="Sass"
           experience="5 meses de expêriencia"
-          value={4.5}
+          value={1}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <path
@@ -97,7 +97,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="Bootstrap"
           experience="2 anos de experiência"
-          value={4.5}
+          value={2}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <path
@@ -109,7 +109,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="MongoDB"
           experience="2 anos de experiência"
-          value={4.5}
+          value={3}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <path
@@ -215,7 +215,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="NodeJS"
           experience="2 anos de experiência"
-          value={4.5}
+          value={3}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <path
@@ -227,7 +227,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="React Native"
           experience="2 anos de experiência"
-          value={4.5}
+          value={1}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <g fill="#7159c1">
@@ -239,7 +239,7 @@ export function Knowledge() {
         <SecondCardBox
           tech="ReactJS"
           experience="2 anos de experiência"
-          value={4.5}
+          value={4}
         >
           <svg className="icons" viewBox="0 0 128 128">
             <g fill="#61DAFB">

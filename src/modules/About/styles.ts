@@ -15,4 +15,8 @@ export const AboutWrapper = styled.div`
     padding: 10px;
     text-align: center;
   }
+
+  h1 {
+    padding-bottom: 40px;
+  }
 `

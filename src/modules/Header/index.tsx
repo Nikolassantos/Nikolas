@@ -16,12 +16,6 @@ export default function Home() {
               <a href="">Projetos</a>
             </li>
             <li>
-              <a href="">Serviços</a>
-            </li>
-            <li>
-              <a href="">Conhecimentos</a>
-            </li>
-            <li>
               <a href="">Contato</a>
             </li>
             <li id="list-icon">
