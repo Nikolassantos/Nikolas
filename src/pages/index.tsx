@@ -1,10 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
 import { AppWrapper } from '../styles/pages/Home'
-import Header from '../components/Header'
-import { Content } from '../components/Content'
-import { AboutMe } from '../components/About'
-import { Projects } from '../components/Projects'
+import Header from '../modules/Header'
+import { Content } from '../modules/Content'
+import { AboutMe } from '../modules/About'
+import { Projects } from '../modules/Projects'
+import { Contact } from '../modules/Contact'
+import { Knowledge } from '../modules/Knowledge'
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +20,8 @@ const Home: React.FC = () => {
         <Content />
         <AboutMe />
         <Projects />
+        <Knowledge />
+        <Contact />
       </AppWrapper>
     </>
   )

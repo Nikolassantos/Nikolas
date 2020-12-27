@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonWrapper } from '../PrimaryButton/styles'
+import { Button } from '../../components/PrimaryButton'
 import {
   ApresentationContainer,
   ContentWrapper,
@@ -20,12 +20,9 @@ export function Content() {
           <span className="apresentation">Desenvolvedor Fullstack.</span>
         </h2>
 
-        <ButtonWrapper>
+        <Button label="Meu GitHub" link="http://github.com/Nikolassantos">
           <FiGithub className="icon" />
-          <a href="http://github.com/Nikolassantos" target="__blank">
-            Meu GitHub
-          </a>
-        </ButtonWrapper>
+        </Button>
       </ApresentationContainer>
 
       <PlayerContainer>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FiLinkedin } from 'react-icons/fi'
 import { AboutWrapper } from './styles'
-import { ButtonWrapper } from '../PrimaryButton/styles'
+import { Button } from '../../components/PrimaryButton'
 
 export function AboutMe() {
   return (
@@ -14,12 +14,12 @@ export function AboutMe() {
           when an unknown printer took a galley of type and scra
           mbled it to`}
       </p>
-      <ButtonWrapper>
+      <Button
+        label="LinkedIn"
+        link="https://www.linkedin.com/in/nikolassaantos/"
+      >
         <FiLinkedin className="icon" />
-        <a href="https://www.linkedin.com/in/nikolassaantos/" target="__blank">
-          {'LinkedIn'}
-        </a>
-      </ButtonWrapper>
+      </Button>
     </AboutWrapper>
   )
 }

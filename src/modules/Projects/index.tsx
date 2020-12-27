@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardBox } from '../CardBox'
+import { CardBox } from '../../components/CardBox'
 import { BoxContainer, FooterTitle, Header, ProjectsWrapper } from './styles'
 
 export function Projects() {

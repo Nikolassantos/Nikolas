@@ -1,3 +1,7 @@
 import { ButtonHTMLAttributes } from 'react'
 
-export type IButton = ButtonHTMLAttributes<HTMLButtonElement>
+export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
+  label: string
+  link: string
+  children: JSX.Element
+}
