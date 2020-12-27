@@ -8,6 +8,7 @@ export const AboutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 70px;
 
   p {
     width: 60%;
