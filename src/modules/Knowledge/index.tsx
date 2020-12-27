@@ -1,5 +1,5 @@
 import React from 'react'
-import { SecondCardBox } from '../../components/SecondCardBox'
+import { SecondCardBox } from '../../components/SecondCardBox/index'
 import { CardBoxContainer, KnowledgeWrapper } from './styles'
 
 export function Knowledge() {
