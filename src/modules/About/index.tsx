@@ -5,7 +5,7 @@ import { Button } from '../../components/PrimaryButton'
 
 export function AboutMe() {
   return (
-    <AboutWrapper>
+    <AboutWrapper id="about">
       <h1>Sobre mim</h1>
       <p>
         {`Lorem Ipsum is simply dummy text of the printing 

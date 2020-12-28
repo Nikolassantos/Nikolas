@@ -4,7 +4,7 @@ import { BoxContainer, FooterTitle, Header, ProjectsWrapper } from './styles'
 
 export function Projects() {
   return (
-    <ProjectsWrapper>
+    <ProjectsWrapper id="project">
       <Header>
         <h1>Projects</h1>
       </Header>

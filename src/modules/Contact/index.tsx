@@ -5,7 +5,7 @@ import { ContactWrapper, FormContainer, FormFooter, FormHeader } from './styles'
 
 export function Contact() {
   return (
-    <ContactWrapper>
+    <ContactWrapper id="contact">
       <h1>Contato</h1>
       <FormContainer>
         <FormHeader>

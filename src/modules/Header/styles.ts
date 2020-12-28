@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 import { colors } from '../../styles/theme'
 
-export const AppWrapper = styled.div``
+export const AppWrapper = styled.div`
+  .active {
+    border-bottom: 1px solid #333;
+  }
+`
 
 export const HeaderWrapper = styled.header`
   display: flex;
@@ -19,12 +23,12 @@ export const HeaderWrapper = styled.header`
   ul {
     display: flex;
   }
-  li {
+  .link {
     list-style-type: none;
     padding: 10px;
     cursor: pointer;
   }
-  li:hover {
+  .link:hover {
     border-bottom: solid 3px ${colors.primaryColor};
   }
   #list-icon {
