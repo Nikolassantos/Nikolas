@@ -9,8 +9,8 @@ export function Contact() {
       <h1>Contato</h1>
       <FormContainer>
         <FormHeader>
-          <InputPrimary />
-          <InputPrimary placeholder="" />
+          <input placeholder="E-mail" />
+          <input placeholder="Nome" />
         </FormHeader>
         <textarea placeholder="Digite o motivo do contato aqui..." />
         <FormFooter>
