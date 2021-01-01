@@ -47,11 +47,6 @@ export default function Home() {
             >
               <a href="">Contato</a>
             </Link>
-            <li id="list-icon" className="link">
-              <a>
-                <FiMoon className="moon-icon" size={25} />
-              </a>
-            </li>
           </ul>
         </nav>
       </HeaderWrapper>

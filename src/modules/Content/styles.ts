@@ -18,6 +18,19 @@ export const ContentWrapper = styled.div`
     font-weight: 900;
     font-family: 'Space Mono', monospace;
   }
+
+  @media (max-width: 1060px) {
+    text-align: center;
+  }
 `
-export const ApresentationContainer = styled.div``
-export const PlayerContainer = styled.div``
+export const ApresentationContainer = styled.div`
+  @media (max-width: 1060px) {
+    display: flex;
+    flex-direction: column;
+  }
+`
+export const PlayerContainer = styled.div`
+  @media (max-width: 1060px) {
+    display: none;
+  }
+`

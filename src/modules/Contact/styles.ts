@@ -12,15 +12,22 @@ export const ContactWrapper = styled.div`
     padding-bottom: 40px;
   }
   textarea {
-    border: none;
-    background-color: #f0f0f0;
-    font-size: 14px;
     width: 100%;
-    height: 150px;
     border-radius: 5px;
-    margin-top: 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-family: 'Space Mono', monoespaço;
     padding: 10px;
     font-size: 16px;
+    margin: 10px;
+    border: none;
+    height: 100px;
+  }
+
+  @media (max-width: 850px) {
+    textarea {
+      font-size: 14px;
+    }
   }
 `
 
@@ -31,6 +38,8 @@ export const FormContainer = styled.div`
   border-radius: 10px;
   box-shadow: 0px 0px 20px #e7e7e7;
   padding: 30px;
+
+  min-width: 350px;
 `
 
 export const FormHeader = styled.div`
@@ -46,6 +55,15 @@ export const FormHeader = styled.div`
     padding: 10px;
     font-size: 16px;
     margin: 10px;
+  }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+  @media (max-width: 850px) {
+    input {
+      font-size: 14px;
+    }
   }
 `
 

@@ -17,6 +17,7 @@ export const Header = styled.header`
 `
 export const BoxContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `
 
 export const FooterTitle = styled.h4`

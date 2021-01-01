@@ -15,4 +15,5 @@ export const KnowledgeWrapper = styled.div`
 `
 export const CardBoxContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `

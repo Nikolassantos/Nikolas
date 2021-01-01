@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^2.2.2",
+    "@vercel/node": "^1.8.5",
     "cogo-toast": "^4.2.3",
     "next": "9.5.2",
     "next-images": "^1.4.1",
