@@ -18,6 +18,10 @@ export const HeaderWrapper = styled.header`
 
   h1 {
     font-size: 22px;
+
+    @media (max-width: 650px) {
+      font-size: 18px;
+    }
   }
 
   ul {

@@ -34,4 +34,8 @@ export default createGlobalStyle`
   input{
     border:none
   }
+
+  li{
+    list-style:none
+  }
 `

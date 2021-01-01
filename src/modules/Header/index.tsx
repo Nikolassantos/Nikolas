@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppWrapper, HeaderWrapper } from './styles'
-import { FiMoon } from 'react-icons/fi'
+import { FiMoon, FiMenu } from 'react-icons/fi'
 import { Link, animateScroll as scroll } from 'react-scroll'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
         <h1>Nikolas Santos</h1>
         <nav>
           <ul>
-            <Link
+            {/* <Link
               activeClass="active"
               to="about"
               spy={true}
@@ -46,7 +46,12 @@ export default function Home() {
               className="link"
             >
               <a href="">Contato</a>
-            </Link>
+            </Link> */}
+            <li>
+              <a>
+                <FiMenu size={25} />
+              </a>
+            </li>
           </ul>
         </nav>
       </HeaderWrapper>
