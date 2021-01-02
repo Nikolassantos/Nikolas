@@ -10,10 +10,10 @@ export const ContactWrapper = styled.div`
 
   h1 {
     @media (max-width: 850px) {
-      font-size: 20px;
+      font-size: 16px;
     }
     @media (max-width: 400px) {
-      font-size: 15px;
+      font-size: 13px;
     }
   }
   .title-container {
