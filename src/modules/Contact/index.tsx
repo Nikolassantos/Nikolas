@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { InputPrimary } from '../../components/InputPrimary'
 import { Button } from '../../components/PrimaryButton'
 import { ContactWrapper, FormContainer, FormFooter, FormHeader } from './styles'
+import { FaWhatsapp } from 'react-icons/fa'
 
 export function Contact() {
   const [number, setNumber] = useState('')
@@ -26,7 +27,10 @@ export function Contact() {
   }
   return (
     <ContactWrapper id="contact">
-      <h1>Contato via WhatsApp</h1>
+      <div className="title-container">
+        <h1>Contato via WhatsApp</h1>
+        <FaWhatsapp className="title-icon" size={30} />
+      </div>
       <FormContainer>
         <FormHeader>
           <input

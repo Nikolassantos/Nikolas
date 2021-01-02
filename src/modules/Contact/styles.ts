@@ -9,7 +9,19 @@ export const ContactWrapper = styled.div`
   flex-direction: column;
 
   h1 {
-    padding-bottom: 40px;
+    @media (max-width: 850px) {
+      font-size: 20px;
+    }
+  }
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 30px;
+    .title-icon {
+      margin-left: 10px;
+    }
   }
   textarea {
     width: 100%;
