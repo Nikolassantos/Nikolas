@@ -99,9 +99,6 @@ export const HeaderWrapper = styled.header`
     background: #fff;
     width: 60px;
     height: 60px;
-    position: fixed;
-    top: 15px;
-    right: 20px;
   }
   input:checked ~ label .hamburguer:before {
     transform: rotate(90deg);
