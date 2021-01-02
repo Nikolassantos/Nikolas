@@ -47,7 +47,7 @@ export function Contact() {
         />
         <FormFooter>
           <Button
-            link={`https://api.whatsapp.com/send?phone=+5518988248606&text=Olá meu nome é ${name} e gostaria de falar sobre ${area}`}
+            link={`https://api.whatsapp.com/send?phone=+5518988248606&text=Olá meu nome é ${name} e gostaria de falar sobre "${area}"`}
             label="Enviar"
           />
         </FormFooter>
