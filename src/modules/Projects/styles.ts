@@ -23,5 +23,5 @@ export const BoxContainer = styled.div`
 export const FooterTitle = styled.h4`
   font-size: 18px;
   color: ${colors.primaryColor};
-  padding: 30px;
+  padding-top: 30px;
 `

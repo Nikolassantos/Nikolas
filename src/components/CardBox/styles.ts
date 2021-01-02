@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const CardBoxWrapper = styled.div`
   height: auto;
   flex-grow: 1;
-  flex-basis: 300px;
   background-color: #fafafa;
   padding: 40px 40px 80px 40px;
   margin: 10px;
