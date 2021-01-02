@@ -9,11 +9,17 @@ export function Projects() {
         <h1>Projects</h1>
       </Header>
       <BoxContainer>
-        <CardBox />
+        <CardBox
+          title="One page empresa"
+          desc="🏬 One page com informações sobre uma empresa."
+        />
         <CardBox />
         <CardBox />
       </BoxContainer>
-      <CardBox />
+      <BoxContainer>
+        <CardBox />
+        <CardBox />
+      </BoxContainer>
 
       <FooterTitle>
         <a

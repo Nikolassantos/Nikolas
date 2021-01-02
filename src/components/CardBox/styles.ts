@@ -18,4 +18,11 @@ export const Describe = styled.div`
   margin-top: 10px;
 `
 
-export const Footer = styled.div``
+export const Footer = styled.div`
+  display: flex;
+  justify-content: space-around;
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+  }
+`
