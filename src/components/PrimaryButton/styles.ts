@@ -20,4 +20,8 @@ export const ButtonWrapper = styled.button`
   .icon {
     margin-right: 10px;
   }
+
+  &:hover {
+    background-color: #3460da;
+  }
 `

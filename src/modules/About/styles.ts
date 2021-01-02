@@ -11,7 +11,7 @@ export const AboutWrapper = styled.div`
   padding: 70px;
 
   p {
-    width: 60%;
+    width: 100%;
     padding: 10px;
     text-align: center;
   }

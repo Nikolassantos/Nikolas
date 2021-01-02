@@ -44,4 +44,44 @@ export const HeaderWrapper = styled.header`
     font-weight: 500;
     font-size: 16px;
   }
+
+  .hamburguer {
+    display: block;
+    background: #000;
+    width: 30px;
+    height: 2px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+  }
+  .hamburguer:before,
+  .hamburguer:after {
+    background: #000;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+  }
+  .hamburguer:before {
+    top: -10px;
+  }
+  .hamburguer:after {
+    bottom: -10px;
+  }
+
+  input {
+    display: none;
+  }
+  input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+  }
+  input:checked ~ label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  input:checked ~ label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+  }
 `

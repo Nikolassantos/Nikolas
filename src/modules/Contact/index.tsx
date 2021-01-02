@@ -4,14 +4,15 @@ import { Button } from '../../components/PrimaryButton'
 import { ContactWrapper, FormContainer, FormFooter, FormHeader } from './styles'
 
 export function Contact() {
-  const [email, setEmail] = useState('')
+  const [number, setNumber] = useState('')
   const [name, setName] = useState('')
   const [area, setArea] = useState('')
-  console.log(email, name, area)
+
+  console.log(number, name, area)
 
   function handleEmailChange(event: React.ChangeEvent<HTMLInputElement>) {
     const value = event.target.value
-    setEmail(value)
+    setNumber(value)
   }
 
   function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
@@ -23,10 +24,9 @@ export function Contact() {
     const value = event.target.value
     setArea(value)
   }
-
   return (
     <ContactWrapper id="contact">
-      <h1>Contato</h1>
+      <h1>Contato via WhatsApp</h1>
       <FormContainer>
         <FormHeader>
           <input
@@ -35,11 +35,6 @@ export function Contact() {
             id="name-input"
             placeholder="Nome"
           />
-          <input
-            value={email}
-            onChange={handleEmailChange}
-            placeholder="E-mail"
-          />
         </FormHeader>
         <textarea
           value={area}
@@ -47,7 +42,10 @@ export function Contact() {
           placeholder="Digite o motivo do contato aqui..."
         />
         <FormFooter>
-          <Button label="Enviar" />
+          <Button
+            link={`https://api.whatsapp.com/send?phone=+5518988248606&text=Olá meu nome é ${name} e gostaria de falar sobre ${area}`}
+            label="Enviar"
+          />
         </FormFooter>
       </FormContainer>
     </ContactWrapper>

@@ -9,7 +9,7 @@ export function AboutMe() {
       <h1>Sobre mim</h1>
       <p>
         {`Lorem Ipsum is simply dummy text of the printing 
-          and`}
+          andLorem Ipsum is simply dummy.`}
       </p>
       <Button
         label="LinkedIn"
