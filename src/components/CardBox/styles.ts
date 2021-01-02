@@ -15,14 +15,17 @@ export const CardBoxWrapper = styled.div`
 export const Title = styled.h3``
 
 export const Describe = styled.div`
-  margin-top: 10px;
+  margin-top: 20px;
 `
 
 export const Footer = styled.div`
   display: flex;
-  justify-content: space-around;
 
   @media (max-width: 850px) {
     flex-direction: column;
+  }
+
+  .background-button-container {
+    margin: 5px;
   }
 `

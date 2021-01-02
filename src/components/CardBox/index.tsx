@@ -10,12 +10,14 @@ export const CardBox: React.FC<ICardBox> = ({ title, desc }) => {
       <Title>{title || 'Em breve'}</Title>
       <Describe>{desc || 'Projeto em construção.'}</Describe>
       <Footer>
-        <Button label="WEBSITE">
-          <FiLayout className="icon" />
-        </Button>
-        <Button label="GITHUB">
-          <FiGithub className="icon" />
-        </Button>
+        <div className="background-button-container">
+          <Button
+            link="https://iuricode.github.io/one-page-company/"
+            label="WEBSITE"
+          >
+            <FiLayout className="icon" />
+          </Button>
+        </div>
       </Footer>
     </CardBoxWrapper>
   )

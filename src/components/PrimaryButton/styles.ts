@@ -4,7 +4,7 @@ export const ButtonWrapper = styled.button`
   background-color: #4070f4;
   color: #fff;
   padding: 15px;
-  width: 180px;
+  width: auto;
   display: flex;
   align-self: center;
   align-items: center;
