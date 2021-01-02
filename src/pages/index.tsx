@@ -7,6 +7,7 @@ import { AboutMe } from '../modules/About'
 import { Projects } from '../modules/Projects'
 import { Contact } from '../modules/Contact'
 import { Knowledge } from '../modules/Knowledge'
+import { Footer } from '../modules/Footer'
 
 const Home: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const Home: React.FC = () => {
         <Projects />
         <Knowledge />
         <Contact />
+        <Footer />
       </AppWrapper>
     </>
   )
