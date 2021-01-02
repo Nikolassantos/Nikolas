@@ -41,7 +41,7 @@ export const ContactWrapper = styled.div`
 
   @media (max-width: 850px) {
     textarea {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 `
@@ -77,7 +77,7 @@ export const FormHeader = styled.div`
   }
   @media (max-width: 850px) {
     input {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 `
