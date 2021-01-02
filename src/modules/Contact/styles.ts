@@ -12,6 +12,9 @@ export const ContactWrapper = styled.div`
     @media (max-width: 850px) {
       font-size: 20px;
     }
+    @media (max-width: 400px) {
+      font-size: 15px;
+    }
   }
   .title-container {
     display: flex;
