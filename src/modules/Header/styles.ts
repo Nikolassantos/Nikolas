@@ -32,8 +32,8 @@ export const HeaderWrapper = styled.header`
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    opacity: 0;
     transition: 0.25s 1s cubic-bezier(0.19, 1, 0.22, 1) ease-in-out;
+    opacity: 0;
   }
   .link {
     list-style-type: none;
@@ -88,7 +88,7 @@ export const HeaderWrapper = styled.header`
     transform: rotate(45deg);
   }
   input:checked ~ ul {
-    opacity: initial;
+    opacity: 1;
   }
   input:checked ~ label .menu {
     box-shadow: 0 0 0 800vw #4070f4, 0 0 0 8px #4070f4;
