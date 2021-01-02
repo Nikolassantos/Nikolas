@@ -26,6 +26,14 @@ export const HeaderWrapper = styled.header`
 
   ul {
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: 0.25s 1s cubic-bezier(0.19, 1, 0.22, 1) ease-in-out;
   }
   .link {
     list-style-type: none;
@@ -40,9 +48,9 @@ export const HeaderWrapper = styled.header`
   }
   a {
     text-decoration: none;
-    color: ${colors.secondaryColor};
+    color: #fff;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .hamburguer {
@@ -73,8 +81,26 @@ export const HeaderWrapper = styled.header`
   input {
     display: none;
   }
+  label {
+    cursor: pointer;
+  }
   input:checked ~ label .hamburguer {
     transform: rotate(45deg);
+  }
+  input:checked ~ ul {
+    opacity: initial;
+  }
+  input:checked ~ label .menu {
+    box-shadow: 0 0 0 800vw #4070f4, 0 0 0 8px #4070f4;
+  }
+  .menu {
+    transition: box-shadow 1s ease-in-out;
+    border-radius: 50%;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 15px;
   }
   input:checked ~ label .hamburguer:before {
     transform: rotate(90deg);
@@ -83,5 +109,9 @@ export const HeaderWrapper = styled.header`
   input:checked ~ label .hamburguer:after {
     transform: rotate(90deg);
     bottom: 0;
+  }
+  .hamburguer {
+    top: 29px;
+    left: 15px;
   }
 `
